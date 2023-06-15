@@ -1,0 +1,17 @@
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second{
+    display: flex;
+    flex-direction: column-reverse;
+justify-content: space-between;
+}
+
+.third{
+    display: flex;
+    align-items: flex-start;
+    order:1;
+align-self: flex-end;
+}
